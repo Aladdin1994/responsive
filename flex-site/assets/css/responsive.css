@@ -1,0 +1,43 @@
+@media only screen and (max-width:992px)
+{
+    .container{
+        margin: auto;
+    }
+    header nav {
+        max-width: 95%;
+    }
+    .destinations-body{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+ 
+}
+
+@media only screen and (max-width:768px)
+{
+  
+}
+
+@media only screen and (max-width:576px)
+{
+ .container{
+    max-width: 320px;
+    
+ }
+
+ .header-body h1 {
+    font: 200 30px var(--mainFont);
+    margin-top: 100px;
+    
+}
+.destinations-body {
+  flex-direction: column;
+  align-items: center;
+}
+.destinations-body article{
+    margin-bottom: 40px;
+}
+.article-img img {
+width: 100%;
+}
+} 
